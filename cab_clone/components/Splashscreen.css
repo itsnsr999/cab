@@ -1,0 +1,54 @@
+.splash-screen{
+    background: rgb(25,118,210);
+background: linear-gradient(96deg, rgba(25,118,210,1) 0%, rgba(83,90,255,1) 100%);
+width: 100%;
+height: 100%;
+position: fixed;
+display: flex;
+transform: translate(10);
+top: 0;
+bottom: 0;
+left: 0;
+}
+
+.nam {
+    font-size: 64px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 181px;
+    height: 181px;
+    border-radius: 20px;
+    /* border: 1px solid #ccc; Add a border if needed */
+    box-shadow: 
+      -5px -5px 10px rgba(255, 255, 255, 0.8), /* Top and left white shadow */
+      5px 5px 10px rgba(0, 0, 0, 0.6);        /* Bottom and right black shadow */
+  }
+
+  .splash-screen-button {
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 341px;
+    height: 58px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    stroke: #EDF6FF;
+    box-shadow: 
+    3px 3px 5px rgba(0, 0, 0, 0.3), /* Right and bottom shadow */
+    -3px 3px 5px rgba(0, 0, 0, 0.3); 
+  }

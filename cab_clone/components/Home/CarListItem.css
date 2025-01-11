@@ -1,0 +1,27 @@
+.carname{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+
+    margin-left: 1rem;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+.span{
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.cardesc{
+
+    margin-left: 1rem;
+}
+.m{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.25rem;
+}

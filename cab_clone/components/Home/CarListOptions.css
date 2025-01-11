@@ -1,0 +1,104 @@
+.carList {
+  margin-top: 4.5rem;
+  padding: 1.25rem;
+  overflow: auto;
+  height: 350px;
+}
+
+.recomended {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.carItem {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  cursor: pointer;
+  padding: 0.5rem; /* Ensure padding is consistent with your design */
+  transition: border 0.3s ease; /* Smooth transition for border changes */
+}
+
+.carItem.active {
+  border-radius: 0.75rem;
+  border: 2px solid #000; /* Adjust the border color and style as needed */
+}
+
+.payment {
+  border-radius: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 30vh;
+  padding: 0.75rem;
+  background-color: white;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.4),
+              0 10px 10px -5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border: 1px;
+  align-items: center;
+}
+
+#btn {
+  width: 50%;
+  padding: 0.75rem;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+.next-btn {
+  font-weight: 600;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 341px;
+  height: 58px;
+  position: absolute;
+  bottom: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 
+    3px 3px 5px rgba(0, 0, 0, 0.3), /* Right and bottom shadow */
+    -3px 3px 5px rgba(0, 0, 0, 0.3); 
+}
+
+@media (min-width: 768px) {
+  .payment {
+    width: 30%;
+  }
+}
+
+@media (max-width: 414px) {
+  .payment {
+    width: 80%;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .carList{
+    width: 100vw;
+    margin-right: 20px;
+    padding-right: 30px;
+    margin-left: -5px;
+    background-color: #1a1a1a;
+    color: white;
+  }
+  .carItem{
+    margin-left: 20px;
+  }
+  .carItem.active {
+    border-radius: 0.75rem;
+    border: 2px solid white; /* Adjust the border color and style as needed */
+  }
+  .recomended{
+    margin-left: 20px;
+  }
+}

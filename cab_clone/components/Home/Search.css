@@ -1,0 +1,68 @@
+.search{
+    
+    padding: 0.5rem; /* Equivalent to p-2 */
+    border-width: 2px; /* Equivalent to border-2 */
+    border-style: solid; /* Ensure the border style is solid */
+    border-color: black; /* Set the border color to black or any color you prefer */
+    border-radius: 0.75rem;
+}
+
+.btn{
+margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: black;
+  width: 100%;
+  color: white;
+  border-radius: 0.75rem;
+}
+
+.ride{
+  
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.inputItem
+{
+  height: 40px;
+  width: 296px;
+}
+
+@media (min-width: 768px) {
+    .search {
+      padding: 1.5rem; /* Equivalent to md:p-6 */
+    }
+  }
+
+
+  @media (max-width: 600px) {
+    .search{
+      border: none;
+      margin-top: 60px;
+      background-color: #1a1a1a;
+      color: white;
+      border-radius: 0%;
+      margin-right: 20px;
+    }
+    .btn{
+      display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 341px;
+  height: 58px;
+  position: absolute;
+  bottom: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 
+    3px 3px 5px rgba(0, 0, 0, 0.3), /* Right and bottom shadow */
+    -3px 3px 5px rgba(0, 0, 0, 0.3); 
+    }
+   
+  }

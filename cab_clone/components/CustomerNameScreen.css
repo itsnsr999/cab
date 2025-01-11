@@ -1,0 +1,83 @@
+.customer-name-screen {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A1A1A;
+    padding: 20px;
+    box-sizing: border-box;
+    top: 0;
+bottom: 0;
+left: 0;
+  }
+  
+  .customer {
+    height: 30%;
+    width: 100%;
+    color: white;
+    margin-bottom: 500px;
+  }
+  
+  .customer-name-screen h2 {
+    margin-bottom: 20px;
+    font: 500;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .customer-name-screen .form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .customer-name-screen input {
+    gap: 0.5rem;
+    width: 155px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    color: white;
+  }
+
+  .customer-name-screen input:first-child {
+    margin-right: 20px; /* Add gap between first and last name inputs */
+  }
+  
+  .customer-button {
+    font-weight: 600;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 341px;
+    height: 58px;
+    position: absolute;
+    bottom: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 
+      3px 3px 5px rgba(0, 0, 0, 0.3), /* Right and bottom shadow */
+      -3px 3px 5px rgba(0, 0, 0, 0.3); 
+  }
+  
+  .space1 {
+    height: 440px;
+    width: 100%;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+  }
+  
